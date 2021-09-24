@@ -4,13 +4,40 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Simple Interest Calculator</h1>
+       
+<body>
+<h1>
+Simple Interest Calculator
+</h1>
+<form>
+<div id="first" >
+<label for="amt" value=" amount"> Amount </label>
+<input id="amt" type="number"/>
+</div>
+<br>
+<div id="second">
+<label for="interest" value="interset amount"> Interest Amount </label>
+<input id="interest"  type="range" min="1" max="100" value="0" onchange="print(this.value)"/> 
+<span id="toshow">0</span>
 
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
-
-        <button onclick="compute()">Compute</button>
-    </body>
+</div><br>
+<div id="three">
+<label for="years">No. of years</label>
+<input list="years" id="year">
+<datalist id="years">
+<option> 1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+</datalist></div>
+</form><br>
+<input  type="button" value="Compute Interest" onclick="calculate()">
+<br>
+<p id="toprint">
+</p>
+</body>
 </html>
