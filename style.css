@@ -4,21 +4,21 @@ position: relative;
 left: 60px;
 }
 .maindiv {
-    background-color:white;
-    color:black;
-    width:400px;
-    padding:20px;
-    border-radius:25px;
-    align:center;
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 25px;
+    align: center;
 }
 
 #amt{
 position: relative;
 left: 55px;
-width: 57%;
+width: 70%;
 }
 #year{
-width: 10%;
+width: 7%;
 position: relative;
 left: 30px;
 }
