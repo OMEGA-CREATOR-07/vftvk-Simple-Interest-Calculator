@@ -15,10 +15,10 @@ left: 60px;
 #amt{
 position: relative;
 left: 55px;
-width: 140px;
+width: 100%;
 }
 #year{
-width: 65px;
+width: 50%;
 position: relative;
 left: 30px;
 }
