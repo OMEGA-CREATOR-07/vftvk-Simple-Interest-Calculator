@@ -10,16 +10,16 @@ left: 60px;
     width:300px;
     padding:20px;
     border-radius:25px;
-    align:center
+    align:center;
 }
-Vis
+
 #amt{
 position: relative;
 left: 53px;
 width: 18%;
 }
 #year{
-width: 6%;
+width: 10%;
 position: relative;
 left: 30px;
 }
