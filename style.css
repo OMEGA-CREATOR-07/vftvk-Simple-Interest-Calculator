@@ -4,10 +4,19 @@ color: grey;
 position: relative;
 left: 60px;
 }
+.maindiv {
+    background-color:white;
+    color:black;
+    width:300px;
+    padding:20px;
+    border-radius:25px;
+    align:center
+}
+Vis
 #amt{
 position: relative;
 left: 53px;
-width: 25%;
+width: 18%;
 }
 #year{
 width: 6%;
