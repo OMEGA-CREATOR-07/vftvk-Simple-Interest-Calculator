@@ -1,5 +1,4 @@
 h1{
-float: center;
 color: grey;
 position: relative;
 left: 60px;
@@ -16,10 +15,10 @@ left: 60px;
 #amt{
 position: relative;
 left: 55px;
-width: 20%;
+width: 29%;
 }
 #year{
-width: 18%;
+width: 23%;
 position: relative;
 left: 30px;
 }
