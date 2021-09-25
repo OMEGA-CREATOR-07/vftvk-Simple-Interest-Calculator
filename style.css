@@ -6,7 +6,7 @@ left: 60px;
 .maindiv {
     background-color:white;
     color:black;
-    width:300px;
+    width:370px;
     padding:20px;
     border-radius:25px;
     align:center;
@@ -15,10 +15,10 @@ left: 60px;
 #amt{
 position: relative;
 left: 55px;
-width: 29%;
+width: 39%;
 }
 #year{
-width: 23%;
+width: 20%;
 position: relative;
 left: 30px;
 }
