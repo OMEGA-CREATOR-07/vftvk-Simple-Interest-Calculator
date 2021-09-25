@@ -2,6 +2,12 @@ function print(x){
 document.getElementById("toshow").innerHTML=x+"%";
 
 }
+function check(){
+      var princiamt=document.get.ElementById("amt").value;
+        if(princiamt<0){
+                alert("please enter a positive number");
+        }
+}
 function calculate(){
 var principal1=document.getElementById("amt").value;
 var years1=document.getElementById("year").value;
