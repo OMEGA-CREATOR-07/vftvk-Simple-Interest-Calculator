@@ -3,13 +3,18 @@ color: grey;
 position: relative;
 left: 60px;
 }
+boyd{
+background-color: black;
+}
 .maindiv {
     background-color: white;
     color: black;
     width: 400px;
     padding: 10px;
     border-radius: 15px;
-    float: center;
+    position: relative;
+    left: 200px;
+    top: 100px;
 }
 
 #amt{
